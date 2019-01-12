@@ -1,0 +1,30 @@
+sudo npm install -g cordova
+
+cordova create myCordova
+
+cd myCordova
+cordova platform add browser ios android windows osx
+
+#全部
+cordova run
+
+
+#指定
+cordova run browser
+
+
+#安卓需要安装 Android Studio，建立AVD并指定默认的AVD
+cordova run android
+
+
+#osx需要安装 XCODE
+cordova run android
+
+
+#ios需要安装 XCODE,如果xcode版本大于10.0，需要建立build.json和里面相应的内容
+cordova run ios
+
+
+#windows需要在WINDOWS平台使用
+cordova run windows
+
