@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
     <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="1.0.0.0" />
-    <mp:PhoneIdentity PhoneProductId="232eeb10-155d-11e9-bcca-2fd1e06787f1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+    <mp:PhoneIdentity PhoneProductId="00c3b370-17ac-11e9-9311-83f2cc81db31" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
         <DisplayName>HelloCordova</DisplayName>
         <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
@@ -32,5 +32,6 @@
     </Applications>
     <Capabilities>
         <Capability Name="internetClient" />
+        <DeviceCapability Name="webcam" />
     </Capabilities>
 </Package>

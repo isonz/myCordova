@@ -15,4 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <chcp>
+        <config-file url="http://localhost:31284/chcp.json" />
+    </chcp>
 </widget>

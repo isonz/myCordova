@@ -60,6 +60,10 @@
         "source": "/Users/ison/Cordova/myCordova/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
+        "merged": "/Users/ison/Cordova/myCordova/platforms/android/app/build/intermediates/res/merged/debug/xml_camera_provider_paths.xml.flat",
+        "source": "/Users/ison/Cordova/myCordova/platforms/android/app/src/main/res/xml/camera_provider_paths.xml"
+    },
+    {
         "merged": "/Users/ison/Cordova/myCordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
         "source": "/Users/ison/Cordova/myCordova/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
     },

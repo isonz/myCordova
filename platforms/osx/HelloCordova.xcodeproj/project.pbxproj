@@ -16,6 +16,8 @@
 		70BD686718FFB06500A1EFCF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BD686518FFB06500A1EFCF /* WebKit.framework */; };
 		70BD686D18FFB0BF00A1EFCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD686A18FFB0BF00A1EFCF /* AppDelegate.m */; };
 		70BD686E18FFB0BF00A1EFCF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BD686C18FFB0BF00A1EFCF /* MainViewController.m */; };
+		9EECB14785C449258932CCD0 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C68D1DF76B14A94AA5D6C2E /* CDVCamera.m */; };
+		46336E72552B49999D2DC090 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F329145C8D483F9A03D393 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,9 @@
 		70BD686B18FFB0BF00A1EFCF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		70BD686C18FFB0BF00A1EFCF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		70DAA8D91908785C00AF3749 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		2C68D1DF76B14A94AA5D6C2E /* CDVCamera.m */ = {isa = PBXFileReference; name = "CDVCamera.m"; path = "cordova-plugin-camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		88034FE7AC104700B208AE6E /* CDVCamera.h */ = {isa = PBXFileReference; name = "CDVCamera.h"; path = "cordova-plugin-camera/CDVCamera.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		87F329145C8D483F9A03D393 /* Quartz.framework */ = {isa = PBXFileReference; name = "Quartz.framework"; path = "System/Library/Frameworks/Quartz.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 				70BD686618FFB06500A1EFCF /* SystemConfiguration.framework in Frameworks */,
 				70BD686718FFB06500A1EFCF /* WebKit.framework in Frameworks */,
 				70BD682718FFB02D00A1EFCF /* Cocoa.framework in Frameworks */,
+				46336E72552B49999D2DC090 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,8 @@
 		7069FBC31905A1F9000B48E1 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				2C68D1DF76B14A94AA5D6C2E /* CDVCamera.m */,
+				88034FE7AC104700B208AE6E /* CDVCamera.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -131,6 +139,7 @@
 				70BD685A18FFB04300A1EFCF /* CordovaLib.xcodeproj */,
 				70BD682618FFB02D00A1EFCF /* Cocoa.framework */,
 				70BD682818FFB02D00A1EFCF /* Other Frameworks */,
+				87F329145C8D483F9A03D393 /* Quartz.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -306,6 +315,7 @@
 				70BD683318FFB02D00A1EFCF /* main.m in Sources */,
 				70BD686D18FFB0BF00A1EFCF /* AppDelegate.m in Sources */,
 				70BD686E18FFB0BF00A1EFCF /* MainViewController.m in Sources */,
+				9EECB14785C449258932CCD0 /* CDVCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,6 +3,9 @@
     <feature name="LocalStorage">
         <param name="osx-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="Camera">
+        <param name="osx-package" value="CDVCamera" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -24,4 +27,5 @@
     <preference name="EnableViewportScale" value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="loadUrlTimeoutValue" value="60000" />
 </widget>

@@ -28,3 +28,18 @@ cordova run ios
 #windows需要在WINDOWS平台使用
 cordova run windows
 
+
+#添加自动更新插件
+cordova plugin add cordova-hot-code-push-plugin
+
+
+#添加开发拓展, 正式发布App的时候必须得移除这个插件
+cordova plugin add cordova-hot-code-push-local-dev-addon
+#启动热部署开发环境
+cordova-hcp server
+
+
+#安装自动代码全局命令
+sudo npm install -g cordova-hot-code-push-cli
+
+
