@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
+    "id": "cordova-hot-code-push-local-dev-addon.chcpLocalDev",
+    "file": "plugins/cordova-hot-code-push-local-dev-addon/www/chcpLocalDev.js",
+    "pluginId": "cordova-hot-code-push-local-dev-addon",
+    "clobbers": [
+      "chcpLocalDev"
+    ]
+  },
+  {
     "id": "cordova-hot-code-push-plugin.chcp",
     "file": "plugins/cordova-hot-code-push-plugin/www/chcp.js",
     "pluginId": "cordova-hot-code-push-plugin",
@@ -39,23 +47,14 @@ module.exports = [
     "clobbers": [
       "CameraPopoverHandle"
     ]
-  },
-  {
-    "id": "cordova-hot-code-push-local-dev-addon.chcpLocalDev",
-    "file": "plugins/cordova-hot-code-push-local-dev-addon/www/chcpLocalDev.js",
-    "pluginId": "cordova-hot-code-push-local-dev-addon",
-    "clobbers": [
-      "chcpLocalDev"
-    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
+  "cordova-hot-code-push-local-dev-addon": "0.4.2",
   "cordova-hot-code-push-plugin": "1.5.3",
-  "cordova-plugin-camera": "4.0.3",
-  "cordova-plugin-whitelist": "1.3.3",
-  "cordova-hot-code-push-local-dev-addon": "0.4.2"
+  "cordova-plugin-camera": "4.0.3"
 };
 // BOTTOM OF METADATA
 });

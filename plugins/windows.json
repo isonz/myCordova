@@ -7,13 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-hot-code-push-plugin": {
-      "PACKAGE_NAME": "HelloCordova"
-    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "HelloCordova"
     },
-    "cordova-plugin-whitelist": {
+    "cordova-hot-code-push-plugin": {
       "PACKAGE_NAME": "HelloCordova"
     },
     "cordova-hot-code-push-local-dev-addon": {

@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "config-file": "http://localhost:31284/chcp.json"
+  },
+  "production": {
+    "config-file": "http://localhost:31284/chcp.json"
+  },
+  "QA": {
+    "config-file": "http://localhost:31284/chcp.json"
+  }
+}

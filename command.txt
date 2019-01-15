@@ -3,7 +3,7 @@ sudo npm install -g cordova
 cordova create myCordova
 
 cd myCordova
-cordova platform add browser ios android windows osx
+cordova platform add browser ios android@6.4.0 windows osx
 
 #全部
 cordova run
@@ -41,5 +41,10 @@ cordova-hcp server
 
 #安装自动代码全局命令
 sudo npm install -g cordova-hot-code-push-cli
+
+cordova-hcp build
+
+
+
 
 
