@@ -17,7 +17,5 @@
     <allow-intent href="geo:*" />
     <chcp>
         <config-file url="http://localhost:31284/chcp.json" />
-        <auto-download enabled="false" />
-        <auto-install enabled="false" />
     </chcp>
 </widget>

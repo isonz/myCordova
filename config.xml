@@ -22,15 +22,14 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
-    <plugin name="cordova-hot-code-push-local-dev-addon" spec="^0.4.2" />
-    <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
     <chcp>
         <config-file url="http://localhost:31284/chcp.json" />
-        <auto-download enabled="false" />
-        <auto-install enabled="false" />
+        <auto-download enabled="true" />
+        <auto-install enabled="true" />
     </chcp>
-    <engine name="windows" spec="^6.0.1" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
     <engine name="android" spec="^7.1.4" />
-    <engine name="browser" spec="^5.0.4" />
+    <engine name="browser" spec="5.0.4" />
+    <engine name="ios" spec="^4.5.5" />
 </widget>
